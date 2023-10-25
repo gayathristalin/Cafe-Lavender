@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="cafe lavender.png" height="65" width="65" alt="logo" />
+          <h1>Cafe Lavender</h1>
+        </div>
+        <button class="btn btn-large btn-open">Share your recipe</button>
+      </header>
+
+      <form class="fact-form hidden">
+        <input type="text" placeholder="Name of the food" /><span>100</span>
+        <input type=""text" placeholder="Link of your recipe blog" />
+        <select>
+          <option value="">Choose category:</option>
+          <option value="Coffee">Coffee</option>
+          <option value="Pizza">Pizza</option>
+          <option value="Pasta">Pasta</option>
+          <option value="Burger">Burger</option>
+          <option value="Sandwich">Sandwich</option>
+          <option value="Shakes">Shakes</option>
+          <option value="Pastries">Pastries</option>
+          <option value="Wraps">Wraps</option>
+          <option value="Buns&Breads">Buns&Breads</option>
+        </select>
+        <button class="btn btn-large">Post</button>
+      </form>
+      <main class="main">
+        <aside>
+          <ul>
+            <li class="category"><button class="btn btn-all">All</button></li>
+            <li class="category">
+              <button
+                class="btn btn-cat"
+                style="background-color: rgba(224, 196, 159, 0.493)"
+              >
+                Coffee
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-cat"
+                style="background-color: rgba(205, 95, 55, 0.493)"
+              >
+                Pizza
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-cat"
+                style="background-color: rgba(159, 210, 224, 0.493)"
+              >
+                pasta
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-cat"
+                style="background-color: rgba(244, 253, 150, 0.493)"
+              >
+                Burger
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-cat"
+                style="background-color: rgba(139, 238, 200, 0.493)"
+              >
+                Sandwich
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-cat"
+                style="background-color: rgba(255, 152, 210, 0.493)"
+              >
+                Shakes
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-cat"
+                style="background-color: rgba(255, 128, 119, 0.493)"
+              >
+                Pastries
+              </button>
+            </li>
+            <li class="category">
+              <button
+                class="btn btn-cat"
+                style="background-color: rgba(149, 20, 166, 0.313)"
+              >
+                Wraps
+              </button>
+            </li>
+            <li class="category">
+              <button class="btn btn-cat" style="background-color: beige">
+                Buns&Breads
+              </button>
+            </li>
+          </ul>
+        </aside>
+
+        <section>
+          <ul class="facts-list">
+            <li class="fact">
+              <p>
+                Cappuccino
+
+                <a
+                  class="Source"
+                  href="https://www.starbucksathome.com/recipes/cappuccino"
+                  target="_blank"
+                  >(Source)
+                </a>
+              </p>
+              <span
+                class="tag"
+                style="background-color: rgba(224, 196, 159, 0.493)"
+                >#coffee#</span
+              >
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Mac&cheese
+
+                <a
+                  class="Source"
+                  href="https://www.southernliving.com/recipes/best-ever-macaroni-and-cheese-recipe"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                style="background-color: rgba(159, 210, 224, 0.493)"
+              >
+                #Pasta#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Vanilla latte
+                <a
+                  class="Source"
+                  href="https://www.starbucksathome.com/recipes/vanilla-latte"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                style="background-color: rgba(224, 196, 159, 0.493)"
+              >
+                #Coffee#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Caffe americano
+                <a
+                  class="Source"
+                  href="https://www.starbucksathome.com/recipes/caffe-americano"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                style="background-color: rgba(224, 196, 159, 0.493)"
+              >
+                #Coffee#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Iced-caramel-macchiato
+                <a
+                  class="Source"
+                  href="https://www.starbucksathome.com/recipes/iced-caramel-macchiato"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                style="background-color: rgba(224, 196, 159, 0.493)"
+              >
+                #Coffee#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Sparkling-espresso-mint
+                <a
+                  class="Source"
+                  href="https://www.starbucksathome.com/recipes/sparkling-espresso-mint"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                style="background-color: rgba(224, 196, 159, 0.493)"
+              >
+                #Coffee#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Strawberry-cold-foam-iced-coffee
+                <a
+                  class="Source"
+                  href="https://www.starbucksathome.com/recipes/strawberry-cold-foam-iced-coffee"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                style="background-color: rgba(224, 196, 159, 0.493)"
+              >
+                #Coffee#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Gigi-hadid-pasta
+                <a
+                  class="Source"
+                  href="https://foolproofliving.com/gigi-hadid-pasta-recipe/"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                style="background-color: rgba(159, 210, 224, 0.493)"
+              >
+                #Pasta#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                pesto-pasta
+                <a
+                  class="Source"
+                  href="https://www.vegrecipesofindia.com/pesto-pasta-recipe/"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                class="tag"
+                style="background-color: rgba(159, 210, 224, 0.493)"
+              >
+                #Pasta#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                White sauce alfredo
+                <a
+                  class="Source"
+                  href="https://anitalianinmykitchen.com/alfredo-pasta/"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                style="background-color: rgba(159, 210, 224, 0.493)"
+              >
+                #Pasta#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Classic Red Sauce
+                <a
+                  class="Source"
+                  href="https://www.acouplecooks.com/red-sauce-pasta/"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                class="tag"
+                style="background-color: rgba(159, 210, 224, 0.493)"
+              >
+                #Pasta#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+            <li class="fact">
+              <p>
+                Desi Masala Pasta
+                <a
+                  class="Source"
+                  href="https://www.bing.com/images/search?view=detailv2&iss=sbi&FORM=recidp&sbisrc=ImgDropper&q=pasta&imgurl=https://bing.com/th?id=OSK.9b1394844dd123908caaf614fd6a1c19&idpbck=1&sim=4&pageurl=https%3a%2f%2fwww.indianhealthyrecipes.com%2fmasala-pasta%2f&idpp=recipe&ajaxhist=0&ajaxserp=0"
+                  target="_blank"
+                >
+                  (source)</a
+                >
+              </p>
+              <span
+                class="tag"
+                class="tag"
+                style="background-color: rgba(159, 210, 224, 0.493)"
+              >
+                #Pasta#
+              </span>
+              <div class="vote">
+                <button>❤️ 10k</button>
+                <button>😋 5k</button>
+                <button>👎 69</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
